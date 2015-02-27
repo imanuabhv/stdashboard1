@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Mosaddek">
+<meta name="keyword"
+	content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+<link rel="shortcut icon" href="img/favicon.png">
+
+<title>StarTalk Dashboard</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-reset.css" rel="stylesheet">
+<!--external css-->
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css"
+	rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+
+<!-- csss for data tables -->
+<link href="assets/advanced-datatable/media/css/demo_table.css"
+	rel="stylesheet" />
+<link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css" />
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/style-responsive.css" rel="stylesheet" />
+
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<section id="container">
+		<!--header start-->
+		<header class="header white-bg">
+			<div class="sidebar-toggle-box">
+				<div class="fa fa-bars tooltips" data-placement="right"
+					data-original-title="Toggle Navigation"></div>
+			</div>
+			<!--logo start-->
+			<a href="index.html" class="logo">Star<span>Talk</span></a>
+			<!--logo end-->
+
+			<div class="top-nav ">
+				<!--search & user info start-->
+				<ul class="nav pull-right top-menu">
+					<li><input type="text" class="form-control search"
+						placeholder="Search"></li>
+					<!-- user login dropdown start-->
+					<li class="dropdown"><a data-toggle="dropdown"
+						class="dropdown-toggle" href="#"> <img alt=""
+							src="img/avatar1_small.jpg"> <span class="username">Jhon
+								Doue</span> <b class="caret"></b>
+					</a>
+						<ul class="dropdown-menu extended logout">
+							<div class="log-arrow-up"></div>
+							<li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+							<li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+							<li><a href="#"><i class="fa fa-bell-o"></i>
+									Notification</a></li>
+							<li><a href="login.html"><i class="fa fa-key"></i> Log
+									Out</a></li>
+						</ul></li>
+					<!-- user login dropdown end -->
+				</ul>
+				<!--search & user info end-->
+			</div>
+		</header>
+		<!--header end-->
+		<!--sidebar start-->
+		<aside>
+			<div id="sidebar" class="nav-collapse ">
+				<!-- sidebar menu start-->
+				<ul class="sidebar-menu" id="nav-accordion">
+					<li><a class="active" href="index.html"> <i
+							class="fa fa-dashboard"></i> <span>Dashboard</span>
+					</a></li>
+
+					<li><a href="index.html"> <i class="fa fa-eye"></i> <span>Livestatus</span>
+					</a></li>
+
+					<li class="sub-menu"><a href="javascript:;"> <i
+							class="fa fa-laptop"></i> <span>Administrator</span>
+					</a>
+						<ul class="sub">
+							<li><a href="boxed_page.html">New Event</a></li>
+							<li><a href="horizontal_menu.html">Start Event</a></li>
+							<li><a href="language_switch_bar.html">Modify Event</a></li>
+						</ul></li>
+
+					<li><a href="index.html"> <i class="fa fa-hdd-o"></i> <span>Event
+								History</span>
+					</a></li>
+
+					<li><a href="index.html"> <i class="fa fa-gear"></i> <span>Troubleshoot</span>
+					</a></li>
+
+					<li><a href="index.html"> <i class="fa fa-volume-up"></i>
+							<span>Live Converstation</span>
+					</a></li>
+
+					<li><a href="index.html"> <i class="fa fa-info"></i> <span>Help</span>
+					</a></li>
+
+				</ul>
+				<!-- sidebar menu end-->
+			</div>
+		</aside>
+		<!--sidebar end-->
+		<!--main content start-->
+		<section id="main-content">
+			<section class="wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="panel">
+							<div class="panel-body">
+								<ul class="summary-list">
+									<li>
+										<div class="col-lg-12">
+											<i class="text-info">
+												<form class="form-horizontal tasi-form" method="get">
+													<div class="form-group">
+														<div class="col-lg-12">
+															<select class="form-control input-sm m-bot15"
+																placeholder="Select a Event...">
+																<option>Option 1</option>
+																<option>Option 2</option>
+																<option>Option 3</option>
+															</select>
+														</div>
+													</div>
+												</form>
+											</i>
+										</div>
+									</li>
+									<li><a href="javascript:;"> <i class="text-info"><span
+												class="badge bg-info">Live</span></i> Moderator
+									</a></li>
+									<li><a href="javascript:;"> <i class="text-info"><span
+												class="badge bg-success">44</span></i> Total Callers
+									</a></li>
+									<li><a href="javascript:;"> <i class="text-info"><span
+												class="badge bg-info">Live</span></i> Celebrity
+									</a></li>
+									<li>
+										<form class="form-horizontal tasi-form" method="get">
+											<div class="form-group">
+												<div class="col-lg-12">
+													<i class="text-info">
+														<form class="form-horizontal tasi-form" method="get">
+															<div class="form-group">
+																<div class="col-lg-12">
+																	<button type="button" class="btn btn-default">
+																		<i class="fa fa-refresh"></i> Refresh
+																	</button>
+																</div>
+															</div>
+														</form>
+													</i>
+												</div>
+											</div>
+										</form>
+									</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+				
+
+				
+				<div class="row">
+					<div class="col-lg-4">
+<section class="panel">
+  <header class="panel-heading">
+      OBD Status
+  </header>
+  <div class="panel-body">
+	<div class="adv-table">
+	    <table  class="display table table-bordered table-striped" id="example">
+	      <thead>
+	      <tr>
+		  <th>Circle</th>
+		  <th>Status</th>
+		  <th>Type(s)</th>
+	      </tr>
+	      </thead>
+	      <tbody>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">1</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">1</td>
+		  <td class="center hidden-phone">C</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">0</td>
+		  <td class="center hidden-phone">A</td>
+	      </tr>
+	      </tbody>
+  </table>
+	</div>
+  </div>
+</section>
+</div>
+					<div class="col-lg-3">
+						<section class="panel">
+							<header class="panel-heading">
+								Confrence Server <span class="tools pull-right"> <a
+									href="javascript:;" class="fa fa-chevron-down"></a> <a
+									href="javascript:;" class="fa fa-times"></a>
+								</span>
+							</header>
+							<div class="panel-body">
+								<div class="timeline-messages">
+									<!-- Comment -->
+									<div class="msg-time-chat">
+										<a class="message-img" href="#"><span
+											class="badge bg-info">Talk</span></a>
+										<div class="message-body msg-in">
+											<span class="arrow"></span>
+											<div class="text">
+												<ul>
+													<li><p class="attribution">
+															<a href="#">9560178769</a>
+														</p></li>
+													<li><b>Delhi</b></li>
+												</ul>
+												<!-- <p class="attribution"><a href="#">Jhon Doe</a> at 1:55pm, 13th April 2013</p>
+                                              <p>Hello, How are you brother?</p> -->
+											</div>
+										</div>
+									</div>
+									<!-- /comment -->
+
+									<!-- Comment -->
+									<div class="msg-time-chat">
+										<a class="message-img" href="#"><span
+											class="badge bg-success">Listen</span></a>
+										<div class="message-body msg-out">
+											<span class="arrow"></span>
+											<div class="text">
+												<ul>
+													<li><p class="attribution">
+															<a href="#">9560178769</a>
+														</p></li>
+													<li><b>Mum</b></li>
+												</ul>
+												<!-- <p class="attribution"><a href="#">Jhon Doe</a> at 1:55pm, 13th April 2013</p>
+                                              <p>Hello, How are you brother?</p> -->
+											</div>
+										</div>
+									</div>
+									<!-- /comment -->
+
+									<!-- Comment -->
+									<div class="msg-time-chat">
+										<a class="message-img" href="#"><span
+											class="badge bg-success">Listen</span></a>
+										<div class="message-body msg-in">
+											<span class="arrow"></span>
+											<div class="text">
+												<ul>
+													<li><p class="attribution">
+															<a href="#">9560178769</a>
+														</p></li>
+													<li><b>UPE</b></li>
+												</ul>
+												<!-- <p class="attribution"><a href="#">Jhon Doe</a> at 1:55pm, 13th April 2013</p>
+                                              <p>Hello, How are you brother?</p> -->
+											</div>
+										</div>
+									</div>
+									<!-- /comment -->
+
+									<!-- Comment -->
+									<div class="msg-time-chat">
+										<a class="message-img" href="#"><span
+											class="badge bg-success">Listen</span></a>
+										<div class="message-body msg-out">
+											<span class="arrow"></span>
+											<div class="text">
+												<ul>
+													<li><p class="attribution">
+															<a href="#">9560178769</a>
+														</p></li>
+													<li><b>Bihar</b></li>
+												</ul>
+												<!-- <p class="attribution"><a href="#">Jhon Doe</a> at 1:55pm, 13th April 2013</p>
+                                              <p>Hello, How are you brother?</p> -->
+											</div>
+										</div>
+									</div>
+									<!-- /comment -->
+									<!-- Comment -->
+									<div class="msg-time-chat">
+										<a class="message-img" href="#"><span
+											class="badge bg-success">Listen</span></a>
+										<div class="message-body msg-in">
+											<span class="arrow"></span>
+											<div class="text">
+												<ul>
+													<li><p class="attribution">
+															<a href="#">9560178769</a>
+														</p></li>
+													<li><b>Delhi</b></li>
+												</ul>
+												<!-- <p class="attribution"><a href="#">Jhon Doe</a> at 1:55pm, 13th April 2013</p>
+                                              <p>Hello, How are you brother?</p> -->
+											</div>
+										</div>
+									</div>
+									<!-- /comment -->
+								</div>
+							</div>
+						</section>
+					</div>
+					<!--
+					<div class="col-lg-4">
+						<section class="panel">
+							<header class="panel-heading">
+								Status <span class="tools pull-right"> <a
+									href="javascript:;" class="fa fa-chevron-down"></a> <a
+									href="javascript:;" class="fa fa-times"></a>
+								</span>
+							</header>
+							<div class="panel-body text-center">
+									<strong >Circle Callers</strong> <br>
+									<canvas id="pie" height="190" width="200"></canvas>
+									<br> <strong>Recording Status</strong> <br>
+									<canvas id="pie1" height="190" width="200"></canvas>
+							</div>
+						</section>
+					</div>
+					-->
+					<div class="col-lg-5">
+						<section class="panel">
+							<header class="panel-heading">
+								Circle Callers <span class="tools pull-right"> <a
+									href="javascript:;" class="fa fa-chevron-down"></a> <a
+									href="javascript:;" class="fa fa-times"></a>
+								</span>
+							</header>
+							<div class="panel-body text-center">
+									<canvas id="pie" height="170" width="200"></canvas>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-5">
+						<section class="panel">
+							<header class="panel-heading">
+								Recording Status <span class="tools pull-right"> <a
+									href="javascript:;" class="fa fa-chevron-down"></a> <a
+									href="javascript:;" class="fa fa-times"></a>
+								</span>
+							</header>
+							<div class="panel-body text-center">
+									<canvas id="pie1" height="170" width="200"></canvas>
+							</div>
+						</section>
+					</div>
+	</div>			
+	<div class="row">
+		 <div class="col-lg-12">
+                              <!--widget start-->
+                              <section class="panel">
+                                  <header class="panel-heading tab-bg-dark-navy-blue">
+                                      <ul class="nav nav-tabs nav-justified ">
+                                          <li class="active">
+                                              <a href="#popular" data-toggle="tab">
+                                                  10.0.3.66
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a href="#comments" data-toggle="tab">
+                                                  10.0.28.10
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </header>
+                                  <div class="panel-body">
+                                      <div class="tab-content tasi-tab">
+                                          <div class="tab-pane active" id="popular"> <table  class="display table table-bordered table-striped" id="recording">
+	      <thead>
+	      <tr>
+		  <th>Circle</th>
+		  <th class="center">Total Recording</th>
+		  <th class="center">Last Time Stamp</th>
+	      </tr>
+	      </thead>
+	      <tbody>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Delhi</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>UPE</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      </tbody>
+          </table>         
+										  </div>
+                                          <div class="tab-pane" id="comments">
+<table  class="display table table-bordered table-striped" id="recording1">
+	      <thead>
+	      <tr>
+		  <th>Circle</th>
+		  <th class="center">Total Recording</th>
+		  <th class="center">Last Time Stamp</th>
+	      </tr>
+	      </thead>
+	      <tbody>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeX">
+		  <td>Mumbai</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeC">
+		  <td>Bihar</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      <tr class="gradeA">
+		  <td>MP</td>
+		  <td class="center hidden-phone">12</td>
+		  <td class="center hidden-phone">2015-02-13 12:06:21</td>
+	      </tr>
+	      </tbody>
+		  </table>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </section>
+                              <!--widget end-->
+
+                    
+		<!--main content end-->
+		<!--footer start-->
+		<footer class="site-footer">
+			<div class="text-center">
+				2015 &copy; One97 Communication Ltd. <a href="#" class="go-top"> <i
+					class="fa fa-angle-up"></i>
+				</a>
+			</div>
+		</footer>
+		<!--footer end-->
+	</section>
+
+	<!-- js placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script class="include" type="text/javascript"
+		src="js/jquery.dcjqaccordion.2.7.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+	<script src="js/jquery.sparkline.js" type="text/javascript"></script>
+	<!-- <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script> -->
+	<script src="assets/chart-master/Chart.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.customSelect.min.js"></script>
+
+	<script type="text/javascript" language="javascript"
+		src="assets/advanced-datatable/media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="assets/data-tables/DT_bootstrap.js"></script>
+
+	<script src="js/respond.min.js"></script>
+
+	<!--common script for all pages-->
+	<script src="js/common-scripts.js"></script>
+
+	<!--script for this page-->
+	<script src="js/count.js"></script>
+
+	<!-- script for this page only-->
+	<script src="js/livestatus-chartjs.js"></script>
+
+	<!-- js placed at the end of the document so the pages load faster -->
+	<script>
+		//owl carousel
+
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+				navigation : true,
+				slideSpeed : 300,
+				paginationSpeed : 400,
+				singleItem : true,
+				autoPlay : true
+
+			});
+		});
+
+		//custom select box
+
+		$(function() {
+			$('select.styled').customSelect();
+		});
+	</script>
+ <script type="text/javascript" charset="utf-8">
+          $(document).ready(function() {
+              $('#example').dataTable( {
+                  "aaSorting": [[ 4, "asc" ]],
+				   "sScrollY": "350px",
+				  "bPaginate": false,
+				  "bFilter": false				  
+              } );
+          } );
+      </script>
+	  
+	    <script type="text/javascript" charset="utf-8">
+          $(document).ready(function() {
+              $('#recording1').dataTable( {
+                  "aaSorting": [[ 4, "asc" ]],
+				   "sScrollY": "400px",
+				  "bPaginate": false,
+				  "bFilter": false					  
+              } );
+          } );
+      </script>
+	  <script type="text/javascript" charset="utf-8">
+          $(document).ready(function() {
+              $('#recording').dataTable( {
+                  "aaSorting": [[ 4, "asc" ]],
+				   "sScrollY": "400px",
+				  "bPaginate": false,
+				  "bFilter": false				  
+              } );
+          } );
+      </script>
+</body>
+</html>
